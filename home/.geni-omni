@@ -1,0 +1,13 @@
+# set PATH so it includes geni software if it exists
+if [ -d "/home/dna/Programs/geni/gcf/src" ] ; then
+    PATH="/home/dna/Programs/geni/gcf/src:/home/dna/Programs/geni/gcf/examples:$PATH"
+    export PYTHONPATH="/home/dna/Programs/geni/gcf/src:$PYTHONPATH" 
+fi
+
+alias omni='omni.py'
+alias omni-configure='omni-configure.py'
+alias readyToLogin='readyToLogin.py'
+alias clear-passphrases='clear-passphrases.py'
+alias stitcher='stitcher.py'
+alias remote-execute='remote-execute.py'
+alias addMemberToSliceAndSlivers='addMemberToSliceAndSlivers.py'

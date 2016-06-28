@@ -1,0 +1,5 @@
+ONOS_ROOT=~/Projects/IdeaProjects/onos-dev/onos/
+source /home/dna/Projects/IdeaProjects/onos-dev/onos/tools/dev/bash_profile
+ONOS_GROUP=vagrant
+ONOS_PASS=vagrant
+ONOS_USER=vagrant
