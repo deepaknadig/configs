@@ -6,3 +6,5 @@ alias @p='cd ~/Projects'
 alias @v='cd ~/vagrant'
 
 alias @gitpush='git push -u origin master'
+
+alias mag='mvn archetype:generate'
