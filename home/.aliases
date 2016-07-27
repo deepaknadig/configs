@@ -3,6 +3,7 @@ alias @update='sudo apt-get update && sudo apt-get -y upgrade && sudo apt-get -y
 alias @myip='curl http://ipecho.net/plain; echo'
 alias @extract='extract'
 alias @p='cd ~/Projects'
+alias @pi='cd ~/Projects/IdeaProjects/'
 alias @v='cd ~/vagrant'
 
 alias @gitpush='git push -u origin master'
