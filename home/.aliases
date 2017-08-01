@@ -7,5 +7,12 @@ alias @pi='cd ~/Projects/IdeaProjects/'
 alias @v='cd ~/vagrant'
 
 alias @gitpush='git push -u origin master'
+alias @500='cd ~/Downloads/500px-Bot-master/ && python 500px.py'
 
 alias mag='mvn archetype:generate'
+
+alias @opnfv='cd; echo "Logging on to HCC-C6930 | OFNFV Server"; ssh deepak@hcc-c6930'
+
+alias @onos-build='cd $ONOS_ROOT && $ONOS_ROOT/tools/build/onos-buck build onos --show-output && cd'
+alias @onos-run='cd $ONOS_ROOT && $ONOS_ROOT/tools/build/onos-buck run onos-local -- clean debug'
+alias @onos-client='cd $ONOS_ROOT && $ONOS_ROOT/tools/test/bin/onos localhost'
