@@ -1,4 +1,4 @@
-### Added Aliases
+\### Added Aliases
 alias @update='sudo apt-get update && sudo apt-get -y upgrade && sudo apt-get -y dist-upgrade && sudo apt-get clean && sudo apt-get autoclean && sudo apt-get -y autoremove'
 alias @myip='curl http://ipecho.net/plain; echo'
 alias @extract='extract'
@@ -7,7 +7,7 @@ alias @pi='cd ~/Projects/IdeaProjects/'
 alias @v='cd ~/vagrant'
 
 alias @gitpush='git push -u origin master'
-alias @500='cd ~/Downloads/500px-Bot-master/ && python 500px.py'
+alias @500='cd ~/Downloads/500/ && python 500.py'
 
 alias mag='mvn archetype:generate'
 
@@ -16,3 +16,8 @@ alias @opnfv='cd; echo "Logging on to HCC-C6930 | OFNFV Server"; ssh deepak@hcc-
 alias @onos-build='cd $ONOS_ROOT && $ONOS_ROOT/tools/build/onos-buck build onos --show-output && cd'
 alias @onos-run='cd $ONOS_ROOT && $ONOS_ROOT/tools/build/onos-buck run onos-local -- clean debug'
 alias @onos-client='cd $ONOS_ROOT && $ONOS_ROOT/tools/test/bin/onos localhost'
+alias @onos-web='to localhost:8181/onos/ui'
+alias @onos-rest='to localhost:8181/onos/v1/docs'
+
+alias @kibana='to localhost:5601'
+alias @elastic='to localhost:9200'
